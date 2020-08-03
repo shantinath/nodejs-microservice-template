@@ -55,6 +55,9 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+# Yarn Lock file
+yarn.lock
+
 # dotenv environment variables file
 .env
 
@@ -64,3 +67,6 @@ typings/
 #ide config
 .vscode
 .idea
+
+# Ecosystem file
+ecosystem.config.js

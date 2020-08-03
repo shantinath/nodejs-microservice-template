@@ -7,10 +7,12 @@
   "license": "MIT",
   "scripts": {
     "compile": "make lib",
-    "start": "make devserver",
+    "start": "node dist/app.js",
+    "dev": "make devserver",
     "dockerimage": "make dockerimage",
     "dockerrun": "make dockerrun",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "npx prettier --write 'src/**/*.ts'"
   },
   "dependencies": {
     "@koa/cors": "^3.0.0",
